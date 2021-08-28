@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+.quote {
+  font-family: 'Recoleta';
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 82px;
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 42px;
+}
+
+p {
+  font-family: 'Circular';
+}
+
+.plarge {
+  font-size: 24px;
+}
+
+.pmed {
+  font-size: 22px;
+}
+
+.psmall {
+  font-size: 14px;
+}
+
+.quote {
+  font-size: 42px;
+  line-height: 52px;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url("/assets/fonts/RecoletaRegularDEMO/font.woff2");
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url("/assets/fonts/Circular/CircularStd-Book.woff");
+}
+/*# sourceMappingURL=style.css.map */

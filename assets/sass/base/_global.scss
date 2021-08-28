@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+.quote {
+  font-family: 'Recoleta';
+}
+
+h1 {
+  font-size: $h1size;
+  line-height: $h1lineheight;
+}
+
+h2 {
+  font-size: $h2size;
+  line-height: $h2lineheight;
+}
+
+p {
+  font-family: 'Circular';
+}
+
+.plarge {
+  font-size: $plarge;
+}
+
+.pmed {
+  font-size: $pmed;
+}
+
+.psmall {
+  font-size: 14px;
+}
+
+.quote {
+  font-size: $quotesize;
+  line-height: $quotelineheight;
+}
