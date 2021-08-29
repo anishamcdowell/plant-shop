@@ -2,6 +2,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 10px;
+  font-family: 'Circular';
 }
 
 h1,
@@ -24,19 +26,23 @@ p {
   font-family: 'Circular';
 }
 
-.plarge {
-  font-size: $plarge;
+.plg {
+  font-size: $plg;
 }
 
-.pmed {
-  font-size: $pmed;
+.pmd {
+  font-size: $pmd;
 }
 
-.psmall {
-  font-size: 14px;
+.ps {
+  font-size: $ps;
 }
 
-.quote {
+.pxs {
+  font-size: 1.4rem;
+}
+
+.quotep {
   font-size: $quotesize;
   line-height: $quotelineheight;
 }
