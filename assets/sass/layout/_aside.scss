@@ -1,0 +1,72 @@
+.aside-product {
+  background: $pink;
+  position: absolute;
+  top: 35.3rem;
+  left: 55%;
+  z-index: 1;
+  width: 60rem;
+  height: 66.7rem;
+  border: {
+    top-left-radius: 48%;
+    top-right-radius: 48%;
+  }
+  color: $green;
+}
+
+.aside-product img {
+  width: 60rem;
+  height: auto;
+  position: relative;
+  bottom: 20rem;
+}
+
+.aside-product-div {
+  width: 41.65rem;
+  position: relative;
+  top: -16rem;
+  padding: {
+    left: 8rem;
+    right: 8rem;
+  }
+}
+
+.aside-product-details {
+  border-bottom: 1px $green solid;
+  margin-bottom: 1rem;
+}
+
+.aside-product-details:after {
+  content: '\1F822';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-45deg);
+  float: right;
+  position: relative;
+  top: -3.1rem;
+  right: -3rem;
+  font-size: $ps;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  background-color: $white;
+  z-index: -1;
+}
+
+.product-title,
+.product-price {
+  font: {
+    family: 'Recoleta';
+    weight: bold;
+  }
+}
+
+.product-title {
+  font-size: $h2size;
+  margin-bottom: 2rem;
+}
+
+.product-price {
+  font-size: 3.2rem;
+  margin-bottom: 0.25rem;
+}

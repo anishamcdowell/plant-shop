@@ -96,6 +96,80 @@ button {
   left: 1.95rem;
 }
 
+.aside-product {
+  background: #fac6dd;
+  position: absolute;
+  top: 35.3rem;
+  left: 55%;
+  z-index: 1;
+  width: 60rem;
+  height: 66.7rem;
+  border-top-left-radius: 48%;
+  border-top-right-radius: 48%;
+  color: #0b473f;
+}
+
+.aside-product img {
+  width: 60rem;
+  height: auto;
+  position: relative;
+  bottom: 20rem;
+}
+
+.aside-product-div {
+  width: 41.65rem;
+  position: relative;
+  top: -16rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.aside-product-details {
+  border-bottom: 1px #0b473f solid;
+  margin-bottom: 1rem;
+}
+
+.aside-product-details:after {
+  content: '\1F822';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  float: right;
+  position: relative;
+  top: -3.1rem;
+  right: -3rem;
+  font-size: 1.6rem;
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: -1;
+}
+
+.product-title,
+.product-price {
+  font-family: 'Recoleta';
+  font-weight: bold;
+}
+
+.product-title {
+  font-size: 4.2rem;
+  margin-bottom: 2rem;
+}
+
+.product-price {
+  font-size: 3.2rem;
+  margin-bottom: 0.25rem;
+}
+
 .hero {
   width: 100vw;
   height: 90rem;
@@ -103,6 +177,7 @@ button {
   color: #ffffff;
   position: absolute;
   top: 0;
+  z-index: 1;
 }
 
 .hero-text {
