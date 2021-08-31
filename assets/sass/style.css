@@ -4,6 +4,7 @@ body {
   padding: 0;
   font-size: 10px;
   font-family: 'Circular';
+  overflow-x: hidden;
 }
 
 h1,
@@ -64,6 +65,7 @@ p {
 
 button {
   all: unset;
+  font-size: 1.4rem;
 }
 
 .square-btn {
@@ -212,5 +214,67 @@ h1 {
 .stat {
   font-family: 'Recoleta';
   font-size: 5.2rem;
+}
+
+.nav {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding-left: 12%;
+  padding-right: 13.25%;
+  position: absolute;
+  top: 5rem;
+  z-index: 2;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-branding,
+.nav-links,
+.account-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-branding {
+  font-size: 2.4rem;
+}
+
+.logo-img {
+  margin-right: 2rem;
+}
+
+.nav-links > a,
+.account-links a {
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 1.5rem;
+}
+
+.account-links > a {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.account-links > a:hover {
+  border: 1px #ffc265 solid;
 }
 /*# sourceMappingURL=style.css.map */

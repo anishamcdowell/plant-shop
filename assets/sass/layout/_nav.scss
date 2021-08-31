@@ -1,0 +1,50 @@
+.nav {
+  box-sizing: border-box;
+  width: 100%;
+  padding: {
+    left: 12%;
+    right: 13.25%;
+  }
+  position: absolute;
+  top: 5rem;
+  z-index: 2;
+  color: $white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.nav-branding,
+.nav-links,
+.account-links {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.nav-branding {
+  font-size: $plg;
+}
+
+.logo-img {
+  margin-right: 2rem;
+}
+
+.nav-links > a,
+.account-links a {
+  color: $white;
+  font-size: $pxs;
+  text-decoration: none;
+  padding: 1.5rem;
+}
+
+.account-links > a {
+  padding: {
+    left: 3.5rem;
+    right: 3.5rem;
+  }
+}
+
+.account-links > a:hover {
+  border: 1px $yellow solid;
+}
