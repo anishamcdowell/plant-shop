@@ -3,7 +3,7 @@
   width: 100%;
   padding: {
     left: 12%;
-    right: 13.25%;
+    right: 12%;
   }
   position: absolute;
   top: 5rem;
@@ -35,7 +35,13 @@
   color: $white;
   font-size: $pxs;
   text-decoration: none;
-  padding: 1.5rem;
+}
+
+.nav-links > a {
+  margin: {
+    left: 2rem;
+    right: 2rem;
+  }
 }
 
 .account-links > a {

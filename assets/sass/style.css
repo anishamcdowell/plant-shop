@@ -102,7 +102,7 @@ button {
   background: #fac6dd;
   position: absolute;
   top: 35.3rem;
-  left: 55%;
+  right: 12%;
   z-index: 1;
   width: 60rem;
   height: 66.7rem;
@@ -172,13 +172,81 @@ button {
   margin-bottom: 0.25rem;
 }
 
+.plant-collection {
+  margin-top: 12rem;
+  margin-bottom: 24rem;
+  margin-left: 12%;
+  margin-right: 12%;
+  color: #0b473f;
+}
+
+.plant-collection > h1 {
+  margin-bottom: 7rem;
+}
+
+.product-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.product-category {
+  background-color: #c6f7fa;
+  width: 38rem;
+  height: 38rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product-category:nth-child(odd) {
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.product-category:nth-child(even) {
+  border-radius: 50%;
+}
+
+.product-label {
+  background-color: #ffc265;
+  width: 38rem;
+  height: 5rem;
+  text-align: center;
+  line-height: 50px;
+  font-size: 2.2rem;
+  position: absolute;
+  bottom: -2rem;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
 .hero {
   width: 100vw;
   height: 90rem;
   background-color: #0b473f;
   color: #ffffff;
-  position: absolute;
-  top: 0;
   z-index: 1;
 }
 
@@ -221,7 +289,7 @@ h1 {
           box-sizing: border-box;
   width: 100%;
   padding-left: 12%;
-  padding-right: 13.25%;
+  padding-right: 12%;
   position: absolute;
   top: 5rem;
   z-index: 2;
@@ -266,7 +334,11 @@ h1 {
   color: #ffffff;
   font-size: 1.4rem;
   text-decoration: none;
-  padding: 1.5rem;
+}
+
+.nav-links > a {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .account-links > a {

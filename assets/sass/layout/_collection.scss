@@ -1,0 +1,58 @@
+.plant-collection {
+  margin: {
+    top: 12rem;
+    bottom: 24rem;
+  }
+  margin: {
+    left: 12%;
+    right: 12%;
+  }
+  color: $green;
+}
+
+.plant-collection > h1 {
+  margin-bottom: 7rem;
+}
+
+.product-options {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.product-category {
+  background-color: $blue;
+  width: 38rem;
+  height: 38rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-category:nth-child(odd) {
+  border-bottom: {
+    left-radius: 50%;
+    right-radius: 50%;
+  }
+}
+
+.product-category:nth-child(even) {
+  border-radius: 50%;
+}
+
+.product-label {
+  background-color: $yellow;
+  width: 38rem;
+  height: 5rem;
+  text-align: center;
+  line-height: 50px;
+  font: {
+    size: $pmd;
+  }
+  position: absolute;
+  bottom: -2rem;
+  transform: rotate(-15deg);
+}
