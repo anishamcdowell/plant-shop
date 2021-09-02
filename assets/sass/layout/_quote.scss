@@ -1,0 +1,63 @@
+.quote-section {
+  width: 100%;
+  background-color: $green;
+  padding: {
+    left: 12%;
+    right: 12%;
+  }
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.aside-image-div {
+  width: 38rem;
+  height: 78rem;
+  background-color: $pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -12rem;
+  margin-right: 12%;
+}
+
+.quote-text {
+  width: 70rem;
+  display: block;
+  color: $white;
+  font: {
+    family: 'Recoleta';
+    size: $quotesize;
+  }
+  line-height: $quotelineheight;
+  position: relative;
+}
+
+.quote-mark {
+  width: 70rem;
+  height: 20rem;
+}
+
+#quote-mark-before:before,
+#quote-mark-after:before {
+  color: $white;
+  opacity: 0.4;
+  font: {
+    family: 'Recoleta';
+    size: 28.8rem;
+  }
+}
+
+#quote-mark-before:before {
+  content: '\201C';
+  position: relative;
+  left: -1rem;
+}
+
+#quote-mark-after:before {
+  content: '\201D';
+  position: relative;
+  bottom: 2rem;
+  left: 59.25rem;
+}

@@ -1,7 +1,8 @@
 .plant-collection {
+  height: 80rem;
   margin: {
     top: 12rem;
-    bottom: 24rem;
+    bottom: 5rem;
   }
   margin: {
     left: 12%;
@@ -16,7 +17,7 @@
 
 .product-options {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   position: relative;

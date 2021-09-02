@@ -173,8 +173,9 @@ button {
 }
 
 .plant-collection {
+  height: 80rem;
   margin-top: 12rem;
-  margin-bottom: 24rem;
+  margin-bottom: 5rem;
   margin-left: 12%;
   margin-right: 12%;
   color: #0b473f;
@@ -190,8 +191,8 @@ button {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -247,7 +248,6 @@ button {
   height: 90rem;
   background-color: #0b473f;
   color: #ffffff;
-  z-index: 1;
 }
 
 .hero-text {
@@ -348,5 +348,76 @@ h1 {
 
 .account-links > a:hover {
   border: 1px #ffc265 solid;
+}
+
+.quote-section {
+  width: 100%;
+  background-color: #0b473f;
+  padding-left: 12%;
+  padding-right: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aside-image-div {
+  width: 38rem;
+  height: 78rem;
+  background-color: #fac6dd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: -12rem;
+  margin-right: 12%;
+}
+
+.quote-text {
+  width: 70rem;
+  display: block;
+  color: #ffffff;
+  font-family: 'Recoleta';
+  font-size: 4.2rem;
+  line-height: 5.2rem;
+  position: relative;
+}
+
+.quote-mark {
+  width: 70rem;
+  height: 20rem;
+}
+
+#quote-mark-before:before,
+#quote-mark-after:before {
+  color: #ffffff;
+  opacity: 0.4;
+  font-family: 'Recoleta';
+  font-size: 28.8rem;
+}
+
+#quote-mark-before:before {
+  content: '\201C';
+  position: relative;
+  left: -1rem;
+}
+
+#quote-mark-after:before {
+  content: '\201D';
+  position: relative;
+  bottom: 2rem;
+  left: 59.25rem;
 }
 /*# sourceMappingURL=style.css.map */
