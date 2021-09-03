@@ -1,0 +1,90 @@
+.newsletter {
+  background: $pink;
+  width: 83%;
+  height: 40.3rem;
+  margin: 0 auto;
+  position: relative;
+  top: 28.25rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.newsletter-text-div {
+  margin-left: 8rem;
+}
+
+.newsletter-text-div h2 {
+  color: $green;
+  font: {
+    size: $h1size;
+  }
+  margin-top: 8rem;
+  line-height: $h1lineheight;
+}
+
+.newsletter-text-div > p {
+  color: $green;
+  opacity: 0.7;
+  font-size: $pxs;
+  line-height: 2.4rem;
+  width: 40rem;
+  margin-bottom: 4.6rem;
+}
+
+form > input {
+  height: 6.7rem;
+  border: none;
+  font: {
+    family: 'Circular';
+    size: $pxs;
+  }
+}
+
+#email {
+  width: 32.3rem;
+  padding-left: 3rem;
+  margin-right: -0.25rem;
+}
+
+#email::placeholder {
+  color: rgba(11, 71, 63, 0.7);
+}
+
+#submit {
+  width: 8.8rem;
+  background-color: $green;
+  color: $white;
+}
+
+.newsletter-image-div {
+  width: 25rem;
+}
+
+#nlid1 {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 19.3rem;
+  border: {
+    top-left-radius: 20rem;
+    top-right-radius: 20rem;
+  }
+  align-self: end;
+}
+
+#nlid1 > img {
+  position: relative;
+  bottom: 2.25rem;
+}
+
+#nlid2 {
+  background-color: $green;
+  height: 32.3rem;
+  border: {
+    bottom-left-radius: 20rem;
+    bottom-right-radius: 20rem;
+  }
+}
+
+#nlid2 > img {
+  position: relative;
+  top: -8.4rem;
+}

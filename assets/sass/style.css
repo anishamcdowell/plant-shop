@@ -243,6 +243,12 @@ button {
           transform: rotate(-15deg);
 }
 
+.footer {
+  background-color: #0b473f;
+  width: 100%;
+  height: 97.2rem;
+}
+
 .hero {
   width: 100vw;
   height: 90rem;
@@ -348,6 +354,105 @@ h1 {
 
 .account-links > a:hover {
   border: 1px #ffc265 solid;
+}
+
+.newsletter {
+  background: #fac6dd;
+  width: 83%;
+  height: 40.3rem;
+  margin: 0 auto;
+  position: relative;
+  top: 28.25rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr;
+}
+
+.newsletter-text-div {
+  margin-left: 8rem;
+}
+
+.newsletter-text-div h2 {
+  color: #0b473f;
+  font-size: 7.2rem;
+  margin-top: 8rem;
+  line-height: 8.2rem;
+}
+
+.newsletter-text-div > p {
+  color: #0b473f;
+  opacity: 0.7;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  width: 40rem;
+  margin-bottom: 4.6rem;
+}
+
+form > input {
+  height: 6.7rem;
+  border: none;
+  font-family: 'Circular';
+  font-size: 1.4rem;
+}
+
+#email {
+  width: 32.3rem;
+  padding-left: 3rem;
+  margin-right: -0.25rem;
+}
+
+#email::-webkit-input-placeholder {
+  color: rgba(11, 71, 63, 0.7);
+}
+
+#email:-ms-input-placeholder {
+  color: rgba(11, 71, 63, 0.7);
+}
+
+#email::-ms-input-placeholder {
+  color: rgba(11, 71, 63, 0.7);
+}
+
+#email::placeholder {
+  color: rgba(11, 71, 63, 0.7);
+}
+
+#submit {
+  width: 8.8rem;
+  background-color: #0b473f;
+  color: #ffffff;
+}
+
+.newsletter-image-div {
+  width: 25rem;
+}
+
+#nlid1 {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 19.3rem;
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+#nlid1 > img {
+  position: relative;
+  bottom: 2.25rem;
+}
+
+#nlid2 {
+  background-color: #0b473f;
+  height: 32.3rem;
+  border-bottom-left-radius: 20rem;
+  border-bottom-right-radius: 20rem;
+}
+
+#nlid2 > img {
+  position: relative;
+  top: -8.4rem;
 }
 
 .quote-section {
